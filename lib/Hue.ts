@@ -1,5 +1,4 @@
 import axios from 'axios'
-import convert from 'color-convert'
 
 export class Hue {
   username: string
