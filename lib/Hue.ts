@@ -36,7 +36,6 @@ export class Hue {
       "bri": bri,
       "hue": hue
     })
-    console.log(res.data)
     return res.data
   }
 }

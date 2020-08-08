@@ -25,3 +25,28 @@ hue.getLights().then(function (response) {
     console.log(response);
 })
 ```
+
+### Functions / Documentation
+
+#### Get all lights
+```js 
+hue.getLights()
+```
+
+#### Get a light
+```js
+// args: light id
+hue.getLight(4)
+```
+
+##### Toggle a light
+```js
+// args: light id
+hue.toggleLight(4)
+```
+
+##### Change Hue, Saturation, Brightness
+```js
+// args: light id, hue, saturation, brightnesss
+hue.changeColor(4, 50, 100, 200)
+````
